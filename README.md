@@ -1,6 +1,7 @@
 # MQGeometry
 
 Multi-layer QG model on arbitrary geometries implemented in Pytorch, [paper](https://doi.org/10.5194/gmd-17-1749-2024) accepted at Geoscientific Model Development.
+
 Current fork adds in closure harness and eliminates the complex geometries; the Capacitance Matrix Method makes differentiability difficult.
 The rationale for this is that rectangular geometries for the layerwise-QG is sufficiently complex; more principled complexity is instead added through a varying subinertial wind
 and topography.
